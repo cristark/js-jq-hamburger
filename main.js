@@ -6,7 +6,7 @@ $(document).ready(function(){
     var btnHamb = $('.hamburger-menu');
     var btnClose = $('.hamburger-menu .close');
 
-    // Funzione per mostrare menù
+    /* // Funzione per mostrare menù
     btnShow.click(function(){
         btnHamb.addClass('active');
     });
@@ -14,6 +14,15 @@ $(document).ready(function(){
     // Funzione per nascondere menù
     btnClose.click(function(){
         btnHamb.removeClass('active');
+    }); */
+    
+    // Alternativa con dissolvenza
+    btnShow.click(function(){
+        btnHamb.fadeIn();
+    });
+
+    btnClose.click(function(){
+        btnHamb.fadeOut();
     });
 
 });
