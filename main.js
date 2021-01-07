@@ -2,7 +2,7 @@
 $(document).ready(function(){
 
     // Creo variabili per semplificare codice
-    var btnShow = $('.header-right a');
+    var btnShow = $('.header-right > a');
     var btnHamb = $('.hamburger-menu');
     var btnClose = $('.hamburger-menu .close');
 
